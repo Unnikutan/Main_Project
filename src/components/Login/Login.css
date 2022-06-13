@@ -1,0 +1,246 @@
+.login_bg{
+    background-image: url("../../../public/login_gb.jpg");
+    background-color: rgba(0,0,0,.1);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+    opacity: .8;
+}
+.login_align_container_center{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+}
+
+.login_align_row_center{
+    height: inherit;
+    align-content: center;
+    justify-content: center;
+}
+
+.login_align_col_center{
+    padding: 20px;
+    padding-top: 6%;
+    background: transparent;
+    background-color: rgba(255,255,255,.5);
+    text-align: center;
+    box-shadow: -1px 4px 28px 0px black
+}
+
+.login_input_box{
+    border-radius: 5px;
+    margin: auto;
+    background-color: #fff;
+    width: 75%;
+    border: 1px solid grey;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.login_input_box_1{
+    border-radius: 5px;
+    margin: auto;
+    background-color: #fff;
+    width: 75%;
+    border: 1px solid grey;
+    outline: 2px solid Black;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.login_input_type{
+    margin-left: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: inherit;
+    border: none;
+    outline: none;
+}
+
+
+.login_box{
+    padding: 10px;
+    text-align: center;
+}
+
+.login_btn{
+    width: 75%;
+    background-color:darkslategrey;
+    border-color: darkslategrey;
+    color: #fff;
+}
+.login_border_bottom{
+    margin-bottom: 10px;
+}
+
+.registration_page_background{
+    background-color:silver;
+    height: 100vh;
+    box-shadow: -1px 4px 28px 0px black;
+}
+
+.registration_page_bg{
+    background-color: #fff;
+    height: inherit;
+    
+}
+
+.register_container_display{
+    display: block;
+}
+
+.register_container_no_display{
+    display: none;
+}
+
+.registration_padding{
+    padding: 20px;
+}
+
+.reg_input_btn{
+    width: 75%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    border-style: solid;
+    padding: 2px;
+    padding-left: 10px;
+}
+
+.registration_row{
+    height: 40vh;
+    background-color: rgba(255,255,255,.8);
+    border-radius: 5px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 0px 0px 10px 0px black;
+}
+
+.registration_col{
+    text-align: center;
+}
+
+.reg_col_image{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.reg_img_sep{
+    border-style: none;
+}
+
+.reg_upload_image{
+    cursor: pointer;
+    display: flex;
+    background-image: url("../../../public/person_icon.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+    justify-content: right;
+}
+.reg_image_upload_text{
+    height: inherit;
+    text-align: right;
+}
+.reg_progress_under_text{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.reg_progress_col{
+    display: flex;
+    margin-top: 30px;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.reg_progress_bar{
+    width: 75%;
+    height: 2px;
+}
+.reg_progress_bar_1{
+    border: 1px solid black;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 17.5%;
+    left: 19.5%;
+    border-color: #fff;
+    background-color: #fff;
+    border-radius: 20px;
+    z-index: auto;
+}
+
+.reg_progress_bar_2{
+    border: 1px solid black;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 17.5%;
+    left: 50%;
+    border-color: #fff;
+    background-color: #fff;
+    border-radius: 20px;
+    z-index: auto;
+}
+.reg_progress_bar_3{
+    border: 1px solid black;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 17.5%;
+    left: 79.5%;
+    border-color: #fff;
+    background-color: #fff;
+    border-radius: 20px;
+    z-index: auto;
+}
+
+.reg_progress_color{
+    background-color: rgb(92, 189, 102);
+    border-color: rgb(92, 189, 102);
+
+}
+
+@media screen and (max-width:500px){
+    .reg_progress_bar_1{
+        top: 109px;
+        left: 67px;
+    }
+
+    .reg_progress_bar_2{
+        top: 109px;
+        left: 190px;
+    }
+
+    .reg_progress_bar_3{
+        top: 109px;
+        left: 320px;
+    }
+    .reg_progress_under_text{
+        width: 85%;
+    }
+}
+
+.reg_btn{
+
+}
+.reg_align_right{
+    text-align: right;
+}
+.reg_align_left{
+    text-align: left;
+}
+.reg_align_center{
+    text-align: center;
+}

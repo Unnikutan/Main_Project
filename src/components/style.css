@@ -1,0 +1,14 @@
+.login_align_center{
+    text-align: center;
+}
+.login_block{
+    width: 100%;
+}
+.login_blk{
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+}
+.login_btn{
+    width:50%;
+}
